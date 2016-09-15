@@ -12,6 +12,7 @@ class Postgresql < Formula
   option 'enable-dtrace', 'Build with DTrace support'
 
   depends_on 'readline'
+  depends_on 'openssl'
   depends_on 'ossp-uuid' => :recommended
 
   conflicts_with 'postgres-xc',
